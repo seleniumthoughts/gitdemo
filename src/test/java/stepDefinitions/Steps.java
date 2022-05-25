@@ -28,6 +28,7 @@ public class Steps {
     public void enter_username_something_and_password_something(String strArg1, String strArg2) throws Throwable {
     	System.out.println("username= "+strArg1);
     	System.out.println("password= "+strArg2);
+    	System.out.println("password1= "+strArg2);
     }
     @And("^click on submit$")
     public void click_on_submit() throws Throwable {
