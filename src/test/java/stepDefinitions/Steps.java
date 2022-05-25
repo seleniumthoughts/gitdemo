@@ -29,6 +29,8 @@ public class Steps {
     	System.out.println("username= "+strArg1);
     	System.out.println("password= "+strArg2);
     	System.out.println("password1= "+strArg2);
+    	System.out.println("password2= "+strArg2);
+    	System.out.println("password3= "+strArg2);
     }
     @And("^click on submit$")
     public void click_on_submit() throws Throwable {
